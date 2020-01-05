@@ -15,14 +15,6 @@ Added Some screens here.
 
 ``` swift 
 
-//
-//  ViewController.swift
-//  Bed Time Fan
-//
-//  Created by Pawan kumar on 02/01/20.
-//  Copyright © 2020 Pawan Kumar. All rights reserved.
-//
-
 import UIKit
 import AVFoundation
 
