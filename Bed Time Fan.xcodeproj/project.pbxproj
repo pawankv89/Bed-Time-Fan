@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4690A2623BE3B9200FA6F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4690A2523BE3B9200FA6F84 /* AppDelegate.swift */; };
+		D4690A2A23BE3B9200FA6F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4690A2923BE3B9200FA6F84 /* ViewController.swift */; };
+		D4690A2D23BE3B9200FA6F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4690A2B23BE3B9200FA6F84 /* Main.storyboard */; };
+		D4690A2F23BE3B9C00FA6F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4690A2E23BE3B9C00FA6F84 /* Assets.xcassets */; };
+		D4690A3223BE3B9C00FA6F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4690A3023BE3B9C00FA6F84 /* LaunchScreen.storyboard */; };
+		D4690A3D23BE3B9C00FA6F84 /* Bed_Time_FanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4690A3C23BE3B9C00FA6F84 /* Bed_Time_FanTests.swift */; };
+		D4690A4823BE3B9C00FA6F84 /* Bed_Time_FanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4690A4723BE3B9C00FA6F84 /* Bed_Time_FanUITests.swift */; };
+		D4690A5723BFB8AE00FA6F84 /* fan_off_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5623BFB8AE00FA6F84 /* fan_off_sound.mp3 */; };
+		D4690A5823BFB8AE00FA6F84 /* fan_off_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5623BFB8AE00FA6F84 /* fan_off_sound.mp3 */; };
+		D4690A5923BFB8AE00FA6F84 /* fan_off_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5623BFB8AE00FA6F84 /* fan_off_sound.mp3 */; };
+		D4690A5B23BFB8B300FA6F84 /* fan_button_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5A23BFB8B300FA6F84 /* fan_button_sound.mp3 */; };
+		D4690A5C23BFB8B300FA6F84 /* fan_button_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5A23BFB8B300FA6F84 /* fan_button_sound.mp3 */; };
+		D4690A5D23BFB8B300FA6F84 /* fan_button_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5A23BFB8B300FA6F84 /* fan_button_sound.mp3 */; };
+		D4690A5F23BFB8B800FA6F84 /* fan_on_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5E23BFB8B800FA6F84 /* fan_on_sound.mp3 */; };
+		D4690A6023BFB8B800FA6F84 /* fan_on_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5E23BFB8B800FA6F84 /* fan_on_sound.mp3 */; };
+		D4690A6123BFB8B800FA6F84 /* fan_on_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4690A5E23BFB8B800FA6F84 /* fan_on_sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4690A3923BE3B9C00FA6F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4690A1A23BE3B9200FA6F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4690A2123BE3B9200FA6F84;
+			remoteInfo = "Bed Time Fan";
+		};
+		D4690A4423BE3B9C00FA6F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4690A1A23BE3B9200FA6F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4690A2123BE3B9200FA6F84;
+			remoteInfo = "Bed Time Fan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4690A2223BE3B9200FA6F84 /* Bed Time Fan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time Fan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4690A2523BE3B9200FA6F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4690A2923BE3B9200FA6F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4690A2C23BE3B9200FA6F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4690A2E23BE3B9C00FA6F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4690A3123BE3B9C00FA6F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4690A3323BE3B9C00FA6F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4690A3823BE3B9C00FA6F84 /* Bed Time FanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bed Time FanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4690A3C23BE3B9C00FA6F84 /* Bed_Time_FanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed_Time_FanTests.swift; sourceTree = "<group>"; };
+		D4690A3E23BE3B9C00FA6F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4690A4323BE3B9C00FA6F84 /* Bed Time FanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bed Time FanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4690A4723BE3B9C00FA6F84 /* Bed_Time_FanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed_Time_FanUITests.swift; sourceTree = "<group>"; };
+		D4690A4923BE3B9C00FA6F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4690A5623BFB8AE00FA6F84 /* fan_off_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fan_off_sound.mp3; sourceTree = "<group>"; };
+		D4690A5A23BFB8B300FA6F84 /* fan_button_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fan_button_sound.mp3; sourceTree = "<group>"; };
+		D4690A5E23BFB8B800FA6F84 /* fan_on_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fan_on_sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4690A1F23BE3B9200FA6F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4690A3523BE3B9C00FA6F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4690A4023BE3B9C00FA6F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4690A1923BE3B9200FA6F84 = {
+			isa = PBXGroup;
+			children = (
+				D4690A2423BE3B9200FA6F84 /* Bed Time Fan */,
+				D4690A3B23BE3B9C00FA6F84 /* Bed Time FanTests */,
+				D4690A4623BE3B9C00FA6F84 /* Bed Time FanUITests */,
+				D4690A2323BE3B9200FA6F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4690A2323BE3B9200FA6F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4690A2223BE3B9200FA6F84 /* Bed Time Fan.app */,
+				D4690A3823BE3B9C00FA6F84 /* Bed Time FanTests.xctest */,
+				D4690A4323BE3B9C00FA6F84 /* Bed Time FanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4690A2423BE3B9200FA6F84 /* Bed Time Fan */ = {
+			isa = PBXGroup;
+			children = (
+				D4690A5523BFB89E00FA6F84 /* Resources */,
+				D4690A2523BE3B9200FA6F84 /* AppDelegate.swift */,
+				D4690A2923BE3B9200FA6F84 /* ViewController.swift */,
+				D4690A2B23BE3B9200FA6F84 /* Main.storyboard */,
+				D4690A2E23BE3B9C00FA6F84 /* Assets.xcassets */,
+				D4690A3023BE3B9C00FA6F84 /* LaunchScreen.storyboard */,
+				D4690A3323BE3B9C00FA6F84 /* Info.plist */,
+			);
+			path = "Bed Time Fan";
+			sourceTree = "<group>";
+		};
+		D4690A3B23BE3B9C00FA6F84 /* Bed Time FanTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4690A3C23BE3B9C00FA6F84 /* Bed_Time_FanTests.swift */,
+				D4690A3E23BE3B9C00FA6F84 /* Info.plist */,
+			);
+			path = "Bed Time FanTests";
+			sourceTree = "<group>";
+		};
+		D4690A4623BE3B9C00FA6F84 /* Bed Time FanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4690A4723BE3B9C00FA6F84 /* Bed_Time_FanUITests.swift */,
+				D4690A4923BE3B9C00FA6F84 /* Info.plist */,
+			);
+			path = "Bed Time FanUITests";
+			sourceTree = "<group>";
+		};
+		D4690A5523BFB89E00FA6F84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4690A5E23BFB8B800FA6F84 /* fan_on_sound.mp3 */,
+				D4690A5A23BFB8B300FA6F84 /* fan_button_sound.mp3 */,
+				D4690A5623BFB8AE00FA6F84 /* fan_off_sound.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4690A2123BE3B9200FA6F84 /* Bed Time Fan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4690A4C23BE3B9C00FA6F84 /* Build configuration list for PBXNativeTarget "Bed Time Fan" */;
+			buildPhases = (
+				D4690A1E23BE3B9200FA6F84 /* Sources */,
+				D4690A1F23BE3B9200FA6F84 /* Frameworks */,
+				D4690A2023BE3B9200FA6F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bed Time Fan";
+			productName = "Bed Time Fan";
+			productReference = D4690A2223BE3B9200FA6F84 /* Bed Time Fan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4690A3723BE3B9C00FA6F84 /* Bed Time FanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4690A4F23BE3B9C00FA6F84 /* Build configuration list for PBXNativeTarget "Bed Time FanTests" */;
+			buildPhases = (
+				D4690A3423BE3B9C00FA6F84 /* Sources */,
+				D4690A3523BE3B9C00FA6F84 /* Frameworks */,
+				D4690A3623BE3B9C00FA6F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4690A3A23BE3B9C00FA6F84 /* PBXTargetDependency */,
+			);
+			name = "Bed Time FanTests";
+			productName = "Bed Time FanTests";
+			productReference = D4690A3823BE3B9C00FA6F84 /* Bed Time FanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4690A4223BE3B9C00FA6F84 /* Bed Time FanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4690A5223BE3B9C00FA6F84 /* Build configuration list for PBXNativeTarget "Bed Time FanUITests" */;
+			buildPhases = (
+				D4690A3F23BE3B9C00FA6F84 /* Sources */,
+				D4690A4023BE3B9C00FA6F84 /* Frameworks */,
+				D4690A4123BE3B9C00FA6F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4690A4523BE3B9C00FA6F84 /* PBXTargetDependency */,
+			);
+			name = "Bed Time FanUITests";
+			productName = "Bed Time FanUITests";
+			productReference = D4690A4323BE3B9C00FA6F84 /* Bed Time FanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4690A1A23BE3B9200FA6F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pawan Kumar";
+				TargetAttributes = {
+					D4690A2123BE3B9200FA6F84 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D4690A3723BE3B9C00FA6F84 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D4690A2123BE3B9200FA6F84;
+					};
+					D4690A4223BE3B9C00FA6F84 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D4690A2123BE3B9200FA6F84;
+					};
+				};
+			};
+			buildConfigurationList = D4690A1D23BE3B9200FA6F84 /* Build configuration list for PBXProject "Bed Time Fan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4690A1923BE3B9200FA6F84;
+			productRefGroup = D4690A2323BE3B9200FA6F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4690A2123BE3B9200FA6F84 /* Bed Time Fan */,
+				D4690A3723BE3B9C00FA6F84 /* Bed Time FanTests */,
+				D4690A4223BE3B9C00FA6F84 /* Bed Time FanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4690A2023BE3B9200FA6F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4690A3223BE3B9C00FA6F84 /* LaunchScreen.storyboard in Resources */,
+				D4690A5B23BFB8B300FA6F84 /* fan_button_sound.mp3 in Resources */,
+				D4690A2F23BE3B9C00FA6F84 /* Assets.xcassets in Resources */,
+				D4690A5723BFB8AE00FA6F84 /* fan_off_sound.mp3 in Resources */,
+				D4690A2D23BE3B9200FA6F84 /* Main.storyboard in Resources */,
+				D4690A5F23BFB8B800FA6F84 /* fan_on_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4690A3623BE3B9C00FA6F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4690A5C23BFB8B300FA6F84 /* fan_button_sound.mp3 in Resources */,
+				D4690A5823BFB8AE00FA6F84 /* fan_off_sound.mp3 in Resources */,
+				D4690A6023BFB8B800FA6F84 /* fan_on_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4690A4123BE3B9C00FA6F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4690A5D23BFB8B300FA6F84 /* fan_button_sound.mp3 in Resources */,
+				D4690A5923BFB8AE00FA6F84 /* fan_off_sound.mp3 in Resources */,
+				D4690A6123BFB8B800FA6F84 /* fan_on_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4690A1E23BE3B9200FA6F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4690A2A23BE3B9200FA6F84 /* ViewController.swift in Sources */,
+				D4690A2623BE3B9200FA6F84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4690A3423BE3B9C00FA6F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4690A3D23BE3B9C00FA6F84 /* Bed_Time_FanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4690A3F23BE3B9C00FA6F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4690A4823BE3B9C00FA6F84 /* Bed_Time_FanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4690A3A23BE3B9C00FA6F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4690A2123BE3B9200FA6F84 /* Bed Time Fan */;
+			targetProxy = D4690A3923BE3B9C00FA6F84 /* PBXContainerItemProxy */;
+		};
+		D4690A4523BE3B9C00FA6F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4690A2123BE3B9200FA6F84 /* Bed Time Fan */;
+			targetProxy = D4690A4423BE3B9C00FA6F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4690A2B23BE3B9200FA6F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4690A2C23BE3B9200FA6F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4690A3023BE3B9C00FA6F84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4690A3123BE3B9C00FA6F84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4690A4A23BE3B9C00FA6F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4690A4B23BE3B9C00FA6F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4690A4D23BE3B9C00FA6F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72NX38Y9GF;
+				INFOPLIST_FILE = "Bed Time Fan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pb.poc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4690A4E23BE3B9C00FA6F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72NX38Y9GF;
+				INFOPLIST_FILE = "Bed Time Fan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pb.poc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4690A5023BE3B9C00FA6F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed Time FanTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.Bed-Time-FanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bed Time Fan.app/Bed Time Fan";
+			};
+			name = Debug;
+		};
+		D4690A5123BE3B9C00FA6F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed Time FanTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.Bed-Time-FanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bed Time Fan.app/Bed Time Fan";
+			};
+			name = Release;
+		};
+		D4690A5323BE3B9C00FA6F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed Time FanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.Bed-Time-FanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bed Time Fan";
+			};
+			name = Debug;
+		};
+		D4690A5423BE3B9C00FA6F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed Time FanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.Bed-Time-FanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bed Time Fan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4690A1D23BE3B9200FA6F84 /* Build configuration list for PBXProject "Bed Time Fan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4690A4A23BE3B9C00FA6F84 /* Debug */,
+				D4690A4B23BE3B9C00FA6F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4690A4C23BE3B9C00FA6F84 /* Build configuration list for PBXNativeTarget "Bed Time Fan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4690A4D23BE3B9C00FA6F84 /* Debug */,
+				D4690A4E23BE3B9C00FA6F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4690A4F23BE3B9C00FA6F84 /* Build configuration list for PBXNativeTarget "Bed Time FanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4690A5023BE3B9C00FA6F84 /* Debug */,
+				D4690A5123BE3B9C00FA6F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4690A5223BE3B9C00FA6F84 /* Build configuration list for PBXNativeTarget "Bed Time FanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4690A5323BE3B9C00FA6F84 /* Debug */,
+				D4690A5423BE3B9C00FA6F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4690A1A23BE3B9200FA6F84 /* Project object */;
+}

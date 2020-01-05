@@ -1,20 +1,3 @@
-# Bed-Time-Fan
-
-##  Bed Time Fan With Sound. 
-
-Added Some screens here.
-
-![](https://github.com/pawankv89/Bed-Time-Fan/blob/master/images/screen_1.png)
-![](https://github.com/pawankv89/Bed-Time-Fan/blob/master/images/screen_2.png)
-![](https://github.com/pawankv89/Bed-Time-Fan/blob/master/images/screen_3.png)
-![](https://github.com/pawankv89/Bed-Time-Fan/blob/master/images/screen_4.png)
-
-## Usage
-
-#### Controller
-
-``` swift 
-
 //
 //  ViewController.swift
 //  Bed Time Fan
@@ -498,17 +481,4 @@ class ViewController: UIViewController {
        (button_6_isOn == true) ? timerReset6() : timerReset5()
     }
 }
-
-
-
-``` 
-
-## License
-
-This code is distributed under the terms and conditions of the [MIT license](LICENSE).
-
-## Change-log
-
-A brief summary of each this release can be found in the [CHANGELOG](CHANGELOG.mdown). 
-
 
